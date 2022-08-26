@@ -1,8 +1,10 @@
 import java.io.BufferedReader
 import java.io.InputStreamReader
 
+/*
 var input :Int = 0
 val bw=System.out.bufferedWriter()
+*/
 
 
 /**
