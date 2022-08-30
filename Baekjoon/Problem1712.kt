@@ -9,13 +9,13 @@ import java.util.*
  */
 fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     val str = StringTokenizer(readLine())
-    val a = str.nextToken().toInt()
-    val b = str.nextToken().toInt()
-    val c = str.nextToken().toInt()
+    val a = Integer.parseInt(str.nextToken())
+    val b = Integer.parseInt(str.nextToken())
+    val c = Integer.parseInt(str.nextToken())
 
-    if (b<c) {
-        println((a/(c-b))+1)
-    } else {
+    if (c<=b) {
         println(-1)
+    } else {
+        println((a/(c-b))+1)
     }
 }
